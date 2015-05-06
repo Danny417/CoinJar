@@ -38,7 +38,7 @@ namespace CoinJar
             catch (Exception e)
             {
             }
-            jar.ClearJar();
+            jar.Clear();
             jar.Insert(USDCoin.Dime);
             jar.Insert(USDCoin.Quarter);
             Console.WriteLine("Jar has " + jar.currency + " USD");
@@ -50,7 +50,7 @@ namespace CoinJar
             jar2.Insert(USDCoin.Quarter);
             jar2.Insert(CADCoin.Toonie);
             Console.WriteLine("Jar2 has " + jar2.currency + " USD");
-            jar2.ClearJar();
+            jar2.Clear();
             Console.WriteLine("Jar2 has " + jar2.currency + " USD");
             Console.Read();
         }

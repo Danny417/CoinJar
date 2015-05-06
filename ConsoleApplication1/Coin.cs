@@ -7,7 +7,7 @@ using System.Configuration;
 
 namespace CoinJar
 {
-    public abstract class Coin : Account
+    public abstract class Coin : Asset
     {
         public decimal volume { get; protected set; }
 

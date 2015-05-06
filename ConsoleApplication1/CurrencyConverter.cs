@@ -18,7 +18,7 @@ namespace CoinJar
                  .ToDictionary(n => n.Key.ToString(), n => decimal.Parse(n.Value.ToString()));
         }
 
-        public static decimal convert(Account acc, string CurrencyCode)
+        public static decimal convert(Asset acc, string CurrencyCode)
         {
             decimal ratio = decimal.Divide(rates[CurrencyCode], rates[acc.currencyCode]);
             return decimal.Multiply(acc.currency, ratio);

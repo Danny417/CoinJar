@@ -67,8 +67,9 @@
     <Compile Include="CADCoin.cs" />
     <Compile Include="Coin.cs" />
     <Compile Include="CoinJar.cs" />
+    <Compile Include="AssetContainer.cs" />
     <Compile Include="CurrencyConverter.cs" />
-    <Compile Include="Account.cs" />
+    <Compile Include="Asset.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="USDCoin.cs" />

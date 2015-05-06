@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace CoinJar
 {
-    public abstract class Account
+    public abstract class Asset
     {
         public decimal currency { get; protected set; }
         public string currencyCode { get; protected set; }
 
-        protected Account(string currencyCode, decimal currency)
+        protected Asset(string currencyCode, decimal currency)
         {
             this.currencyCode = currencyCode;
             this.currency = currency;
